@@ -19,7 +19,7 @@
 flex: 100%;
     } 
 }
-body{background-color:lightskyblue;}
+body{background-color:white;}
 
 .container-nav {
 
@@ -219,4 +219,64 @@ main{
 
 .greeting{
   text-align: center;
+}
+footer {
+  background-color: green;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: blue;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el video */
+iframe {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.services {
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
 }
